@@ -1,6 +1,7 @@
 package Facade;
 
 public class Usuario {
+    // Atributos basicos de Usuário
     private String nome;
     private int id;
 
@@ -9,6 +10,7 @@ public class Usuario {
         this.id = id;
     }
 
+    // Métodos Getter e Setter
     public int getId() {
         return id;
     }

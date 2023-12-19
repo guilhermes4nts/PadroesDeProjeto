@@ -1,6 +1,7 @@
 package Facade;
 
 public class Livro {
+    // Atributos basicos de Livro
     private String titulo;
     private String autor;
     private String isbn;
@@ -11,6 +12,7 @@ public class Livro {
         this.isbn = isbn;
     }
 
+    // Métodos Getter e Setter
     public String getTitulo() {
         return titulo;
     }

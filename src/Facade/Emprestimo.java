@@ -1,6 +1,7 @@
 package Facade;
 
 public class Emprestimo {
+    // Atributos Basicos de Emprestimmo
     private Livro livro;
     private Usuario usuario;
     private String dataEmprestimo;
@@ -13,6 +14,7 @@ public class Emprestimo {
         this.dataDevolucao = dataDevolucao;
     }
 
+    // Métodos Getter e Setter
     public Livro getLivro() {
         return livro;
     }
